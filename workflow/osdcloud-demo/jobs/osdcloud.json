@@ -36,6 +36,17 @@
             }
         },
         {
+            "name": "Validate Microsoft Connected Cache Availability",
+            "description": "Test if an MCC host exists and is reachable",
+            "command": "step-validate-connectedcache",
+            "args": [],
+            "parameters": {},
+            "rules": {
+                "runinfullos": true,
+                "skip": false
+            }
+        },
+        {
             "name": "Validate WindowsImage Availability",
             "description": "Test if the image exists and is reachable",
             "command": "step-validate-iswindowsimageready",
